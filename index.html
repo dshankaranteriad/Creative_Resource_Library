@@ -1,0 +1,1926 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://unpkg.com/tailwindcss-jit-cdn"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./script.js"></script>
+    <title>Creative Resource Library</title>
+  </head>
+  <body>
+    <!-- Snippet -->
+    <header
+      class="bg-white dark:bg-gray-900 fixed w-full z-20 top-0 left-0 border-b border-gray-200"
+    >
+      <nav class="bg-white border-gray-200 flex py-2.5 dark:bg-gray-900">
+        <div
+          class="flex flex-wrap items-center justify-between max-w-screen-xl px-4"
+        >
+          <a href="#" class="flex items-center">
+            <img src="./images/logo.png" alt="Creative Logo" width="150" />
+          </a>
+        </div>
+        <div
+          class="flex flex-wrap items-end justify-between max-w-screen-xl px-4 ml-auto"
+        >
+          <img
+            src="./images/Creative_logo.png"
+            alt="Creative Logo"
+            width="100"
+          />
+        </div>
+      </nav>
+    </header>
+    <section
+      class="flex flex-col pt-36 justify-center antialiased bg-gray-100 text-gray-600 min-h-screen p-8 Imgbg"
+    >
+      <div class="h-full inline-flex">
+        <!-- Table -->
+        <div
+          class="w-full max-w-5xl mx-auto bg-white shadow-lg rounded-md border border-gray-200"
+        >
+          <header class="px-5 py-4 border-b border-gray-100">
+            <h2 class="font-normal text-2xl text-gray-800 tracking-wide">
+              Content Wrapper Templates 2023
+            </h2>
+          </header>
+          <div class="p-3 w-full">
+            <div class="overflow-x-auto w-full">
+              <table class="table-auto w-full">
+                <thead
+                  class="text-xs font-normal uppercase text-gray-900 bg-blue-50 h-12"
+                >
+                  <tr>
+                    <th class="p-2 whitespace-nowrap">
+                      <div
+                        class="font-normal text-base text-left tracking-wide"
+                      >
+                        Asset / Campaign Topic
+                      </div>
+                    </th>
+                    <th class="p-2 whitespace-nowrap">
+                      <div
+                        class="font-normal text-base text-left tracking-wide"
+                      >
+                        Destination Platform
+                      </div>
+                    </th>
+                    <th class="p-2 whitespace-nowrap">
+                      <div
+                        class="font-normal text-base text-center tracking-wide"
+                      >
+                        Template Download
+                      </div>
+                    </th>
+                    <th class="p-2 whitespace-nowrap">
+                      <div
+                        class="font-normal text-base text-center tracking-wide"
+                      >
+                        File Manager Login
+                      </div>
+                    </th>
+                  </tr>
+                </thead>
+                <tbody class="text-sm divide-y divide-gray-100">
+                  <tr>
+                    <td class="p-2 whitespace-nowrap">
+                      <div class="flex items-center">
+                        <div class="font-semibold text-gray-600 tracking-wider">
+                          Tech/Generic
+                        </div>
+                      </div>
+                    </td>
+                    <td class="p-2 whitespace-nowrap">
+                      <select
+                        id="Tech-Generic"
+                        class="bg-gray-50 border border-blue-500 text-gray-900 text-sm rounded-lg tracking-wider focus:ring-blue-500 focus:border-blue-500 block w-48 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 categorySelect"
+                      >
+                        <option selected disabled>-Pick your DP-</option>
+                        <option value="Techversions">Techversions</option>
+                        <option value="TechWebTrends">TechWeb Trends</option>
+                        <option value="TheTechnoDigest">
+                          The Techno Digest
+                        </option>
+                        <option value="BusinessInnovations">
+                          Business Innovations
+                        </option>
+                        <option value="DeltaPunch">Delta Punch</option>
+                        <option value="TheTechnoBytes">The Techno Bytes</option>
+                        <option value="InsightsLiving">Insights Living</option>
+                      </select>
+                    </td>
+                    <td class="whitespace-nowrap">
+                      <div id="Tech">
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          EN
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          FR
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          DE
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          IT
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          PT
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          ES
+                        </div>
+                      </div>
+                      <div id="dropdownmultiButton" style="display: none">
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          <a
+                            href="./severs_files/Techversions_ENGLISH_Templates.zip"
+                          >
+                            EN
+                          </a>
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          FR
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          DE
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          IT
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          PT
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          ES
+                        </div>
+                      </div>
+                      <div id="dropdownmultiButton1" style="display: none">
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          <a
+                            href="./severs_files/TechWebTrends_ENGLISH_Templates.zip"
+                          >
+                            EN
+                          </a>
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          FR
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          DE
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          IT
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          PT
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          ES
+                        </div>
+                      </div>
+                      <div id="dropdownmultiButton2" style="display: none">
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          <a
+                            href="./severs_files/TheTechnoDigest_ENGLISH_Templates.zip"
+                          >
+                            EN
+                          </a>
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          FR
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          DE
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          IT
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          PT
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          ES
+                        </div>
+                      </div>
+                      <div id="dropdownmultiButton3" style="display: none">
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          <a
+                            href="./severs_files/BusinessInnovation_ENGLISH_Templates.zip"
+                          >
+                            EN
+                          </a>
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          FR
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          DE
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          IT
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          PT
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          ES
+                        </div>
+                      </div>
+                      <div id="dropdownmultiButton4" style="display: none">
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          <a
+                            href="./severs_files/DeltaPunch_ENGLISH_Templates.zip"
+                          >
+                            EN
+                          </a>
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          FR
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          DE
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          IT
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          PT
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          ES
+                        </div>
+                      </div>
+                      <div id="dropdownmultiButton5" style="display: none">
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          <a
+                            href="./severs_files/TheTechnoBytes_ENGLISH_Templates.zip"
+                          >
+                            EN
+                          </a>
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          FR
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          DE
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          IT
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          PT
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          ES
+                        </div>
+                      </div>
+                      <div id="dropdownmultiButton6" style="display: none">
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          <a
+                            href="./severs_files/InsightsLiving_ENGLISH_Templates.zip"
+                          >
+                            EN
+                          </a>
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          FR
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          DE
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          IT
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          PT
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          ES
+                        </div>
+                      </div>
+                    </td>
+                    <td class="p-2 whitespace-nowrap">
+                      <div id="clickhere" class="text-sm text-center">
+                        <button
+                          class="bg-transparent hover:bg-blue-500 text-blue-700 font-normal hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded-full focus:outline-none"
+                        >
+                          Click here
+                        </button>
+                      </div>
+                      <div
+                        id="clickhereTech"
+                        class="text-sm text-center"
+                        style="display: none"
+                      >
+                        <button
+                          class="bg-transparent hover:bg-blue-500 text-blue-700 font-normal hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded-full focus:outline-none"
+                        >
+                          <a
+                            href="https://techversions.com/tvs/index.php"
+                            target="_blank"
+                            >Click here</a
+                          >
+                        </button>
+                      </div>
+                      <div
+                        id="clickhereTechWeb"
+                        class="text-sm text-center"
+                        style="display: none"
+                      >
+                        <button
+                          class="bg-transparent hover:bg-blue-500 text-blue-700 font-normal hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded-full focus:outline-none"
+                        >
+                          <a
+                            href="https://techwebtrends.com/twt/index.php"
+                            target="_blank"
+                            >Click here</a
+                          >
+                        </button>
+                      </div>
+                      <div
+                        id="clickhereTechnoDigest"
+                        class="text-sm text-center"
+                        style="display: none"
+                      >
+                        <button
+                          class="bg-transparent hover:bg-blue-500 text-blue-700 font-normal hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded-full focus:outline-none"
+                        >
+                          <a
+                            href="https://thetechnodigest.com/ttd/index.php"
+                            target="_blank"
+                            >Click here</a
+                          >
+                        </button>
+                      </div>
+                      <div
+                        id="clickhereBI"
+                        class="text-sm text-center"
+                        style="display: none"
+                      >
+                        <button
+                          class="bg-transparent hover:bg-blue-500 text-blue-700 font-normal hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded-full focus:outline-none"
+                        >
+                          <a
+                            href="https://thebusinessinnovations.com/tbi/index.php"
+                            target="_blank"
+                            >Click here</a
+                          >
+                        </button>
+                      </div>
+                      <div
+                        id="clickhereDP"
+                        class="text-sm text-center"
+                        style="display: none"
+                      >
+                        <button
+                          class="bg-transparent hover:bg-blue-500 text-blue-700 font-normal hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded-full focus:outline-none"
+                        >
+                          <a
+                            href="https://deltapunch.com/dp/index.php"
+                            target="_blank"
+                            >Click here</a
+                          >
+                        </button>
+                      </div>
+                      <div
+                        id="clickhereTB"
+                        class="text-sm text-center"
+                        style="display: none"
+                      >
+                        <button
+                          class="bg-transparent hover:bg-blue-500 text-blue-700 font-normal hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded-full focus:outline-none"
+                        >
+                          <a
+                            href="https://thetechnobytes.com/ttb/index.php"
+                            target="_blank"
+                            >Click here</a
+                          >
+                        </button>
+                      </div>
+                      <div
+                        id="clickhereIL"
+                        class="text-sm text-center"
+                        style="display: none"
+                      >
+                        <button
+                          class="bg-transparent hover:bg-blue-500 text-blue-700 font-normal hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded-full focus:outline-none"
+                        >
+                          <a
+                            href="https://insightsliving.com/il/index.php"
+                            target="_blank"
+                            >Click here</a
+                          >
+                        </button>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="p-2 whitespace-nowrap">
+                      <div class="flex items-center">
+                        <div class="font-semibold text-gray-600 tracking-wider">
+                          Human Resource
+                        </div>
+                      </div>
+                    </td>
+                    <td class="p-2 whitespace-nowrap">
+                      <select
+                        class="bg-gray-50 border border-blue-500 text-gray-900 text-sm tracking-wider rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-48 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 categorySelect"
+                      >
+                        <option selected disabled>-Pick your DP-</option>
+                        <option value="TheHREmpire">The HR Empire</option>
+                      </select>
+                    </td>
+                    <td class="whitespace-nowrap">
+                      <div id="HR">
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          EN
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          FR
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          DE
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          IT
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          PT
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          ES
+                        </div>
+                      </div>
+                      <div id="dropdownmultiButton7" style="display: none">
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          <a
+                            href="./severs_files/Human-Resource/TheHumanResource_ENGLISH_Templates.zip"
+                          >
+                            EN
+                          </a>
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          FR
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          DE
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          IT
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          PT
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          ES
+                        </div>
+                      </div>
+                    </td>
+                    <td class="p-2 whitespace-nowrap">
+                      <div id="clickhereHR" class="text-sm text-center">
+                        <button
+                          class="bg-transparent hover:bg-blue-500 text-blue-700 font-normal hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded-full focus:outline-none"
+                        >
+                          Click here
+                        </button>
+                      </div>
+                      <div
+                        id="clickhereHE"
+                        class="text-sm text-center"
+                        style="display: none"
+                      >
+                        <button
+                          class="bg-transparent hover:bg-blue-500 text-blue-700 font-normal hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded-full focus:outline-none"
+                        >
+                          <a
+                            href="https://thehrempire.com/the/index.php"
+                            target="_blank"
+                            >Click here</a
+                          >
+                        </button>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="p-2 whitespace-nowrap">
+                      <div class="flex items-center">
+                        <div class="font-semibold text-gray-600 tracking-wider">
+                          Marketing/Sales
+                        </div>
+                      </div>
+                    </td>
+                    <td class="p-2 whitespace-nowrap">
+                      <select
+                        class="bg-gray-50 border border-blue-500 text-gray-900 tracking-wider text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-48 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 categorySelect"
+                      >
+                        <option selected disabled>-Pick your DP-</option>
+                        <option value="TheSalesMark">The Salesmark</option>
+                        <option value="LeadMarketWise">Lead MarketWise</option>
+                      </select>
+                    </td>
+                    <td class="whitespace-nowrap">
+                      <div id="SalesMark">
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          EN
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          FR
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          DE
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          IT
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          PT
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          ES
+                        </div>
+                      </div>
+                      <div id="dropdownmultiButton8" style="display: none">
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          <a
+                            href="./severs_files/Marketing-Sales/TheSalesmark_ENGLISH_Templates.zip"
+                          >
+                            EN</a
+                          >
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          FR
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          DE
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          IT
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          PT
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          ES
+                        </div>
+                      </div>
+                      <div id="dropdownmultiButton9" style="display: none">
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          <a
+                            href="./severs_files/Marketing-Sales/LeadMarketWise_ENGLISH_Templates.zip"
+                          >
+                            EN</a
+                          >
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          FR
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          DE
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          IT
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          PT
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          ES
+                        </div>
+                      </div>
+                    </td>
+                    <td class="p-2 whitespace-nowrap">
+                      <div id="clickhereTheSML" class="text-sm text-center">
+                        <button
+                          class="bg-transparent hover:bg-blue-500 text-blue-700 font-normal hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded-full focus:outline-none"
+                        >
+                          Click here
+                        </button>
+                      </div>
+                      <div
+                        id="clickhereSm"
+                        class="text-sm text-center"
+                        style="display: none"
+                      >
+                        <button
+                          class="bg-transparent hover:bg-blue-500 text-blue-700 font-normal hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded-full focus:outline-none"
+                        >
+                          <a href="https://thesalesmark.com/tsm/index.php">
+                            Click here</a
+                          >
+                        </button>
+                      </div>
+                      <div
+                        id="clickhereLMW"
+                        class="text-sm text-center"
+                        style="display: none"
+                      >
+                        <button
+                          class="bg-transparent hover:bg-blue-500 text-blue-700 font-normal hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded-full focus:outline-none"
+                        >
+                          <a href="https://leadmarketwise.com/lmw/index.php">
+                            Click here</a
+                          >
+                        </button>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="p-2 whitespace-nowrap">
+                      <div class="flex items-center">
+                        <div class="font-semibold text-gray-600 tracking-wider">
+                          eCommerce
+                        </div>
+                      </div>
+                    </td>
+                    <td class="p-2 whitespace-nowrap">
+                      <select
+                        class="bg-gray-50 border border-blue-500 text-gray-900 tracking-wider text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-48 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 categorySelect"
+                      >
+                        <option selected disabled>-Pick your DP-</option>
+                        <option value="TheGrowthInsights">
+                          The Growth Insights
+                        </option>
+                      </select>
+                    </td>
+                    <td class="whitespace-nowrap">
+                      <div id="GI">
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          EN
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          FR
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          DE
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          IT
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          PT
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          ES
+                        </div>
+                      </div>
+                      <div id="dropdownmultiButton10" style="display: none">
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          <a
+                            href="./severs_files/eCommerce/TheGrowthInsights_ENGLISH_Templates.zip"
+                          >
+                            EN</a
+                          >
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          FR
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          DE
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          IT
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          PT
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          ES
+                        </div>
+                      </div>
+                    </td>
+                    <td class="p-2 whitespace-nowrap">
+                      <div id="clickhereEC" class="text-sm text-center">
+                        <button
+                          class="bg-transparent hover:bg-blue-500 text-blue-700 font-normal hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded-full focus:outline-none"
+                        >
+                          Click here
+                        </button>
+                      </div>
+                      <div
+                        id="clickhereGI"
+                        style="display: none"
+                        class="text-sm text-center"
+                      >
+                        <button
+                          class="bg-transparent hover:bg-blue-500 text-blue-700 font-normal hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded-full focus:outline-none"
+                        >
+                          <a href="https://thegrowthinsights.com/tgi/index.php">
+                            Click here</a
+                          >
+                        </button>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="p-2 whitespace-nowrap">
+                      <div class="flex items-center">
+                        <div class="font-semibold text-gray-600 tracking-wider">
+                          Finance
+                        </div>
+                      </div>
+                    </td>
+                    <td class="p-2 whitespace-nowrap">
+                      <select
+                        class="bg-gray-50 border border-blue-500 text-gray-900 text-sm tracking-wider rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-48 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 categorySelect"
+                      >
+                        <option selected disabled>-Pick your DP-</option>
+                        <option value="FinancePulseDaily">
+                          Finance Pulse Daily
+                        </option>
+                      </select>
+                    </td>
+                    <td class="whitespace-nowrap">
+                      <div id="Finance">
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          EN
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          FR
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          DE
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          IT
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          PT
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          ES
+                        </div>
+                      </div>
+                      <div id="dropdownmultiButton11" style="display: none">
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          <a
+                            href="./severs_files/Finance/email-page-template.zip"
+                          >
+                            EN</a
+                          >
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          FR
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          DE
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          IT
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          PT
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          ES
+                        </div>
+                      </div>
+                    </td>
+                    <td class="p-2 whitespace-nowrap">
+                      <div id="clickhereFinance" class="text-sm text-center">
+                        <button
+                          class="bg-transparent hover:bg-blue-500 text-blue-700 font-normal hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded-full focus:outline-none"
+                        >
+                          Click here
+                        </button>
+                      </div>
+                      <div
+                        id="clickhereFPD"
+                        class="text-sm text-center"
+                        style="display: none"
+                      >
+                        <button
+                          class="bg-transparent hover:bg-blue-500 text-blue-700 font-normal hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded-full focus:outline-none"
+                        >
+                          <a href="https://financepulsedaily.com/fpd/index.php">
+                            Click here</a
+                          >
+                        </button>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="p-2 whitespace-nowrap">
+                      <div class="flex items-center">
+                        <div class="font-semibold text-gray-600 tracking-wider">
+                          Cloud/Salesforce
+                        </div>
+                      </div>
+                    </td>
+                    <td class="p-2 whitespace-nowrap">
+                      <select
+                        class="bg-gray-50 border border-blue-500 text-gray-900 text-sm tracking-wider rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-48 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 categorySelect"
+                      >
+                        <option selected disabled>-Pick your DP-</option>
+                        <option value="CloudTechAlert">CloudTech Alert</option>
+                      </select>
+                    </td>
+                    <td class="whitespace-nowrap">
+                      <div id="Cloud">
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          EN
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          FR
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          DE
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          IT
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          PT
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          ES
+                        </div>
+                      </div>
+                      <div id="dropdownmultiButton12" style="display: none">
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          <a
+                            href="./severs_files/Cloud-Salesforce/CloudTechAlert_ENGLISH_Templates.zip"
+                          >
+                            EN</a
+                          >
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          FR
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          DE
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          IT
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          PT
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          ES
+                        </div>
+                      </div>
+                    </td>
+                    <td class="p-2 whitespace-nowrap">
+                      <div id="clickhereCloud" class="text-sm text-center">
+                        <button
+                          class="bg-transparent hover:bg-blue-500 text-blue-700 font-normal hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded-full focus:outline-none"
+                        >
+                          Click here
+                        </button>
+                      </div>
+                      <div
+                        id="clickhereCTA"
+                        style="display: none"
+                        class="text-sm text-center"
+                      >
+                        <button
+                          class="bg-transparent hover:bg-blue-500 text-blue-700 font-normal hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded-full focus:outline-none"
+                        >
+                          <a href="https://cloudtechalert.com/cta/index.php">
+                            Click here</a
+                          >
+                        </button>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="p-2 whitespace-nowrap">
+                      <div class="flex items-center">
+                        <div class="font-semibold text-gray-600 tracking-wider">
+                          Healthcare
+                        </div>
+                      </div>
+                    </td>
+                    <td class="p-2 whitespace-nowrap">
+                      <select
+                        class="bg-gray-50 border border-blue-500 text-gray-900 text-sm tracking-wider rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-48 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 categorySelect"
+                      >
+                        <option selected disabled>-Pick your DP-</option>
+                        <option value="HealthcareTechAlert">
+                          HealthcareTech Alert
+                        </option>
+                      </select>
+                    </td>
+                    <td class="whitespace-nowrap">
+                      <div id="HT">
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          EN
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          FR
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          DE
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          IT
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          PT
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          ES
+                        </div>
+                      </div>
+                      <div id="dropdownmultiButton13" style="display: none">
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          <a
+                            href="./severs_files/Healthcare/HealthcareTechAlert_ENGLISH_Templates.zip"
+                          >
+                            EN</a
+                          >
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          FR
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          DE
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          IT
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          PT
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          ES
+                        </div>
+                      </div>
+                    </td>
+                    <td class="p-2 whitespace-nowrap">
+                      <div id="clickhereHT" class="text-sm text-center">
+                        <button
+                          class="bg-transparent hover:bg-blue-500 text-blue-700 font-normal hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded-full focus:outline-none"
+                        >
+                          Click here
+                        </button>
+                      </div>
+                      <div
+                        id="clickhereHTA"
+                        style="display: none"
+                        class="text-sm text-center"
+                      >
+                        <button
+                          class="bg-transparent hover:bg-blue-500 text-blue-700 font-normal hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded-full focus:outline-none"
+                        >
+                          <a
+                            href="https://healthcaretechalert.com/hta/index.php"
+                          >
+                            Click here</a
+                          >
+                        </button>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="p-2 whitespace-nowrap">
+                      <div class="flex items-center">
+                        <div class="font-semibold text-gray-600 tracking-wider">
+                          Education
+                        </div>
+                      </div>
+                    </td>
+                    <td class="p-2 whitespace-nowrap">
+                      <select
+                        class="bg-gray-50 border border-blue-500 text-gray-900 text-sm tracking-wider rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-48 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 categorySelect"
+                      >
+                        <option selected disabled>-Pick your DP-</option>
+                        <option value="ModerncampusDigest">
+                          Moderncampus Digest
+                        </option>
+                      </select>
+                    </td>
+                    <td class="whitespace-nowrap">
+                      <div id="EDU">
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          EN
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          FR
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          DE
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          IT
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          PT
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          ES
+                        </div>
+                      </div>
+                      <div id="dropdownmultiButton14" style="display: none">
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          <a
+                            href="./severs_files/Education/ModerncampusDigest_ENGLISH_Templates.zip
+                          "
+                          >
+                            EN</a
+                          >
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          FR
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          DE
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          IT
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          PT
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          ES
+                        </div>
+                      </div>
+                    </td>
+                    <td class="p-2 whitespace-nowrap">
+                      <div id="clickhereEDU" class="text-sm text-center">
+                        <button
+                          class="bg-transparent hover:bg-blue-500 text-blue-700 font-normal hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded-full focus:outline-none"
+                        >
+                          Click here
+                        </button>
+                      </div>
+                      <div
+                        id="clickhereMCD"
+                        style="display: none"
+                        class="text-sm text-center"
+                      >
+                        <button
+                          class="bg-transparent hover:bg-blue-500 text-blue-700 font-normal hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded-full focus:outline-none"
+                        >
+                          <a
+                            href="https://moderncampusdigest.com/mcd/index.php"
+                            target="_blank"
+                          >
+                            Click here</a
+                          >
+                        </button>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="p-2 whitespace-nowrap">
+                      <div class="flex items-center">
+                        <div class="font-semibold text-gray-600 tracking-wider">
+                          White Label
+                        </div>
+                      </div>
+                    </td>
+                    <td class="p-2 whitespace-nowrap">
+                      <select
+                        class="bg-gray-50 border border-blue-500 text-gray-900 text-sm tracking-wider rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-48 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 categorySelect"
+                      >
+                        <option selected disabled>-Pick your DP-</option>
+                        <option value="DocShareIT">
+                          White Label - DocShareIT
+                        </option>
+                      </select>
+                    </td>
+                    <td class="whitespace-nowrap">
+                      <div id="DSI">
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          EN
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          FR
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          DE
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          IT
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          PT
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          ES
+                        </div>
+                      </div>
+                      <div id="dropdownmultiButton15" style="display: none">
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          <a
+                            href="./severs_files/WhiteLabel/email-page-template.zip"
+                          >
+                            EN</a
+                          >
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          FR
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          DE
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          IT
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          PT
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          ES
+                        </div>
+                      </div>
+                    </td>
+                    <td class="p-2 whitespace-nowrap">
+                      <div id="clickhereDSI" class="text-sm text-center">
+                        <button
+                          class="bg-transparent hover:bg-blue-500 text-blue-700 font-normal hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded-full focus:outline-none"
+                        >
+                          Click here
+                        </button>
+                      </div>
+                      <div
+                        id="clickhereWlDST"
+                        style="display: none"
+                        class="text-sm text-center"
+                      >
+                        <button
+                          class="bg-transparent hover:bg-blue-500 text-blue-700 font-normal hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded-full focus:outline-none"
+                        >
+                          <a
+                            href="https://docshareit.com/previews/"
+                            target="_blank"
+                          >
+                            Click here</a
+                          >
+                        </button>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="p-2 whitespace-nowrap">
+                      <div class="flex items-center">
+                        <div class="font-semibold text-gray-600 tracking-wider">
+                          WTWH
+                        </div>
+                      </div>
+                    </td>
+                    <td class="p-2 whitespace-nowrap">
+                      <select
+                        class="bg-gray-50 border border-blue-500 text-gray-900 text-sm tracking-wider rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-48 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 categorySelect"
+                      >
+                        <option selected disabled>-Pick your DP-</option>
+
+                        <option value="Black">WTWH - Black</option>
+                        <option value="DesignWorld">WTWH - Design World</option>
+                        <option value="EEWorldOnline">
+                          WTWH - EE World Online
+                        </option>
+                        <option value="MassDevice">WTWH - MASS DEVICE</option>
+                        <option value="MedicalDesignOutSourcing">
+                          WTWH - Medical Design & Out Sourcing
+                        </option>
+                        <option value="TheRobotReport">
+                          WTWH - The Robot Report
+                        </option>
+                        <option value="SolarPowerWorld">
+                          WTWH - Solar Power World
+                        </option>
+                        <option value="WindPower">WTWH - Wind Power</option>
+                      </select>
+                    </td>
+                    <td class="whitespace-nowrap">
+                      <div id="WTWH">
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          EN
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          FR
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          DE
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          IT
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          PT
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          ES
+                        </div>
+                      </div>
+
+                      <div id="dropdownmultiButton19" style="display: none">
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          <a href="#"> EN</a>
+                        </div>
+                      </div>
+                      <div id="dropdownmultiButton20" style="display: none">
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          <a href="#"> EN</a>
+                        </div>
+                      </div>
+                      <div id="dropdownmultiButton21" style="display: none">
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          <a href="#"> EN</a>
+                        </div>
+                      </div>
+                      <div id="dropdownmultiButton22" style="display: none">
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          <a href="#"> EN</a>
+                        </div>
+                      </div>
+                      <div id="dropdownmultiButton23" style="display: none">
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          <a href="#"> EN</a>
+                        </div>
+                      </div>
+                      <div id="dropdownmultiButton24" style="display: none">
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          <a href="#"> EN</a>
+                        </div>
+                      </div>
+                      <div id="dropdownmultiButton25" style="display: none">
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          <a href="#"> EN</a>
+                        </div>
+                      </div>
+                      <div id="dropdownmultiButton26" style="display: none">
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          <a href="#"> EN</a>
+                        </div>
+                      </div>
+                    </td>
+                    <td class="p-2 whitespace-nowrap">
+                      <div id="clickhereWTWH" class="text-sm text-center">
+                        <button
+                          class="bg-transparent hover:bg-blue-500 text-blue-700 font-normal hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded-full focus:outline-none"
+                        >
+                          Click here
+                        </button>
+                      </div>
+                      <div
+                        id="clickhereWTWHsever"
+                        style="display: none"
+                        class="text-sm text-center"
+                      >
+                        <button
+                          class="bg-transparent hover:bg-blue-500 text-blue-700 font-normal hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded-full focus:outline-none"
+                        >
+                          <a
+                            href="https://docshareit.com/previews/"
+                            target="_blank"
+                          >
+                            Click here</a
+                          >
+                        </button>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="p-2 whitespace-nowrap">
+                      <div class="flex items-center">
+                        <div class="font-semibold text-gray-600 tracking-wider">
+                          Additional DPs for Microsoft
+                        </div>
+                      </div>
+                    </td>
+                    <td class="p-2 whitespace-nowrap">
+                      <select
+                        class="bg-gray-50 border border-blue-500 text-gray-900 text-sm tracking-wider rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-48 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 categorySelect"
+                      >
+                        <option selected disabled>-Pick your DP-</option>
+                        <option value="TechMasterPros">TechMaster Pros</option>
+                        <option value="TechInsightToday">
+                          TechInsight Today
+                        </option>
+                      </select>
+                    </td>
+                    <td class="whitespace-nowrap">
+                      <div id="MSFT">
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          EN
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          FR
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          DE
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          IT
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          PT
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          ES
+                        </div>
+                      </div>
+                      <div id="dropdownmultiButton16" style="display: none">
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          <a
+                            href="./severs_files/Additional-DPs-for-Microsoft/email-page-template.zip"
+                          >
+                            EN</a
+                          >
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          FR
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          DE
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          IT
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          PT
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          ES
+                        </div>
+                      </div>
+                      <div id="dropdownmultiButton17" style="display: none">
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          <a
+                            href="./severs_files/Additional-DPs-for-Microsoft/email-page-template-1.zip"
+                          >
+                            EN</a
+                          >
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          FR
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          DE
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          IT
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          PT
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          ES
+                        </div>
+                      </div>
+                    </td>
+                    <td class="p-2 whitespace-nowrap">
+                      <div id="clickhereMSFT" class="text-sm text-center">
+                        <button
+                          class="bg-transparent hover:bg-blue-500 text-blue-700 font-normal hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded-full focus:outline-none"
+                        >
+                          Click here
+                        </button>
+                      </div>
+                      <div
+                        id="clickhereTMP"
+                        style="display: none"
+                        class="text-sm text-center"
+                      >
+                        <button
+                          class="bg-transparent hover:bg-blue-500 text-blue-700 font-normal hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded-full focus:outline-none"
+                        >
+                          <a
+                            href="https://techmasterpros.com/tmp/index.php?"
+                            target="_blank"
+                          >
+                            Click here</a
+                          >
+                        </button>
+                      </div>
+                      <div
+                        id="clickhereTIT"
+                        style="display: none"
+                        class="text-sm text-center"
+                      >
+                        <button
+                          class="bg-transparent hover:bg-blue-500 text-blue-700 font-normal hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded-full focus:outline-none"
+                        >
+                          <a
+                            href="https://techinsightstoday.com/tit/index.php?"
+                            target="_blank"
+                          >
+                            Click here</a
+                          >
+                        </button>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="p-2 whitespace-nowrap">
+                      <div class="flex items-center">
+                        <div class="font-semibold text-gray-600 tracking-wider">
+                          Crypto
+                        </div>
+                      </div>
+                    </td>
+                    <td class="p-2 whitespace-nowrap">
+                      <select
+                        class="bg-gray-50 border border-blue-500 text-gray-900 text-sm tracking-wider rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-48 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 categorySelect"
+                      >
+                        <option selected disabled>-Pick your DP-</option>
+                        <option value="TheBestofBlockchain">
+                          The Best of Blockchain
+                        </option>
+                      </select>
+                    </td>
+                    <td class="whitespace-nowrap">
+                      <div id="Crypto">
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          EN
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          FR
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          DE
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          IT
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          PT
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          ES
+                        </div>
+                      </div>
+                      <div id="dropdownmultiButton18" style="display: none">
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          <a
+                            href="./severs_files/Crypto/email-page-template.zip"
+                          >
+                            EN</a
+                          >
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          FR
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          DE
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          IT
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          PT
+                        </div>
+                        <div
+                          class="rounded-full mx-2 bg-blue-300 hover:bg-blue-500 hover:text-white h-8 w-8 inline-flex items-center justify-center cursor-pointer"
+                        >
+                          ES
+                        </div>
+                      </div>
+                    </td>
+                    <td class="p-2 whitespace-nowrap">
+                      <div id="clickhereCrypto" class="text-sm text-center">
+                        <button
+                          class="bg-transparent hover:bg-blue-500 text-blue-700 font-normal hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded-full focus:outline-none"
+                        >
+                          Click here
+                        </button>
+                      </div>
+                      <div
+                        id="clickhereBOB"
+                        style="display: none"
+                        class="text-sm text-center"
+                      >
+                        <button
+                          class="bg-transparent hover:bg-blue-500 text-blue-700 font-normal hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded-full focus:outline-none"
+                        >
+                          <a
+                            href="https://thebestofblockchain.com/tbbc/index.php"
+                            target="_blank"
+                          >
+                            Click here</a
+                          >
+                        </button>
+                      </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Start block -->
+
+    <footer class="bg-white dark:bg-gray-800">
+      <div class="max-w-screen-xl p-4 py-6 mx-auto lg:py-16 md:p-8 lg:p-10">
+        <hr
+          class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8"
+        />
+        <div class="text-center">
+          <span
+            class="flex items-center justify-center mb-5 text-2xl font-semibold text-gray-900 dark:text-white"
+          >
+            <img
+              src="./images/logo.png"
+              class="h-6 mr-3 sm:h-9"
+              alt="Anteriad Logo"
+            />
+          </span>
+          <span
+            class="block text-sm text-center text-gray-500 dark:text-gray-400"
+            >© 2023
+            <a
+              href="https://anteriad.com/"
+              class="text-blue-600 hover:underline dark:text-blue-500"
+              >Anteriad LLC</a
+            >.
+          </span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
